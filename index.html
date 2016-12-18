@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - & modifed by cheng-chia huang -->
+    <title>Welcome to Cheng-Chia's page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <!--    <script> alert("Hi, welcome to my page")</script>-->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#research">RESEARCH</a></li>
+                <li><a href="#small-project">SMALL PROGECTS</a></li>
+                <li><a href="#maps">MAPS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center main_page">
+        <h2 class="margin">Welcome to Cheng-Chia Huang's Page</h2> <img src="https://lh4.googleusercontent.com/-jGNTt2xKmYA/V4W-tmgpPhI/AAAAAAAAALE/gl7Udcy-A00daCFJ0_rEij0ZY0OC2b5jwCL0B/w993-h995-no/FullSizeRender.jpg class=" class="img-thumbnail" alt="Cinque Terre" width="380" height="390"> </div>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 " id="about">
+        <h2 class="margin text-center" id="profile-caption">About Me</h2>
+        <div class="profile">
+            <p>
+                <h4>My name is Cheng-Chia Huang. I am a graduate student in San Diego State University, having five-year geography teaching experience. My current works focus on human dynamics and analysis of geographic information in social media. </h4> </p>
+            <p>
+                <h4> I have got my first Master degree in National Taiwan University, specializng in cultural geography and geography education. Now, I am persuing my second Master degree in GIScience. My research interests are GIS, analysis of big geo-data, image classification, and topic classification. </h4> </p>
+            <!--    my education background-->
+            <ol id="education-background">
+                <li><b><h3>Education</h3></b></li>
+                <ul>
+                    <p>
+                        <li>M.S. (9/2015-- )</li>
+                        <ul>
+                            <li><a class="school" href="https://geography.sdsu.edu/" target="_blank">Department of Geography, San Diego State University</a></li>
+                            <li>GIScience, social media </ul>
+                    </p>
+                    <p>
+                        <li>M.S. (9/2008-- 6/2011)</li>
+                        <ul>
+                            <li><a class="school" href="http://www.geog.ntu.edu.tw/en/" target="_blank">Department of Geography, National Taiwan University</a></li>
+                            <li>cultral geography, textual analysis </ul>
+                    </p>
+                    <p>
+                        <li>B.S. (9/2003-- 6/2007)</li>
+                        <ul>
+                            <li><a class="school" href="http://www.geog.ntu.edu.tw/en/" target="_blank">Department of Geography, National Taiwan University </a></li>
+                            <li>Major: Geography</li>
+                            <li>Minor: Political Science, National Taiwan University</li>
+                            <li>Secondary Education Program</li>
+                        </ul>
+                    </p>
+                </ul>
+                <li> <b> <h3>Reserch Interests </h3></b> </li>
+                <ul>
+                    <li>GIS</li>
+                    <li>Analysis of big geo-data</li>
+                    <li>Geography education</li>
+                </ul>
+                <li> <b><h3>Work Experiences </h3></b> </li>
+                <ul>
+                    <li> Student Teacher in Taipei Long-Men Junior High School (2007-2008) </li>
+                    <li> Geography Teacher in Touqian Junior High School (2008-2009)</li>
+                    <li>Teaching Assistant and Research Assistant in Department of Geography at National Taiwan University (2009-2010)</li>
+                    <li>Geography Teacher in Yuli and Hsin Sheng Junior High School (2011-2014)</li>
+                    <li>Resesrch Assistant in Department of Geography at San Diego State University (2015-recent)</li>
+                </ul>
+            </ol>
+        </div>
+    </div>
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center" id="research">
+        <h2 class="margin" id="research-caption">Research</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>
+                    <h3><a href=# class="topic">Topic 1: Gentrification</a></h3></p>
+                <p class=research-content> This research is about how we can take advantage of data mining technique to detect gentrifying areas with Instagram data...</p>
+            </div>
+            <div class="col-sm-6">
+                <p>
+                    <h3><a href=# class="topic">Topic 2: Cross-border imagination</a></h3></p>
+                <p class="research-content">This research explores cross-border imaggination from different genres of Taipei city writing </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-4 text-center" id="small-project">
+        <h2 class="margin" id=project-caption>Small Projects</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>
+                    <h3><a herf=# class="project">1. Sentiment Analysis</a></h3></p>
+                <p class="text-padding"> This project takes advantage of NLTK and Text-Blob python libraries to analyze Instagram postings in Salt Lake City.</p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <h3><a herf=# class="project">2. Text Clustering </a></h3></p>
+                <p class="text-padding"> This project takes advantage of Graphlab Create, a machine learning python library, to cluster the Instagram posts in Salt Lake County. </p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <h3><a herf=# class="project">3. Image Classification</a></h3> </p>
+                <p class="text-padding">This project takes advantage Tensor Flow, a machine learning python library, to classify the Instagram photos in Sugar House,SLC.</p>
+            </div>
+             <div class="col-sm-3">
+                <p>
+                    <h3><a herf=# class="project">4. SQL Project</a></h3> </p>
+                <p class="text-padding">This project develops a tool which is able to generate gentrification typologies based on different methods. The programing languages used for this project are PostgresSQL and Python. </p>
+            </div>
+        </div>
+    </div>
+    <!--shows my location on googlemap-->
+    <div class="container-fluid bg-5 text-center main_page" id="maps">
+        <h2 class="margin map-caption">Map of My Location</h2>
+        <div id="googleMap" style="width:1000px;height:380px; margin:auto"> </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid bg-6 text-center">
+        <p>Website Made By Cheng-Chia
+            <br>Email: huangkarie@gmail.com</p>
+    </footer>
+    <script>
+        // Add smooth scrolling to all links in navbar + footer link 
+        $(document).ready(function () {
+                $(".navbar a").on('click', function (event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+                        // Store hash
+                        var hash = this.hash;
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 1100, function () {
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            })
+            // Add maps
+        var myLocation = new google.maps.LatLng(32.777264, -117.074035);
+        var marker;
+
+        function showmap() {
+            var mapProp = {
+                center: new google.maps.LatLng(32.775698, -117.071930)
+                , zoom: 16
+                , mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            // Add Marker on the map
+            var marker = new google.maps.Marker({
+                position: myLocation
+                , animation: google.maps.Animation.BOUNCE
+            });
+            marker.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', showmap);
+    </script>
+</body>
+
+</html>

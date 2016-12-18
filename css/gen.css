@@ -1,0 +1,56 @@
+#header {
+    margin: 1 1 1 1;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-radius: 10px
+}
+
+#menu {
+    background-color: lightgray;
+    height: 1000px;
+    border-radius: 10px;
+    padding:2px;
+}
+
+
+#ex{
+    background-color: lightgray;
+    height:1000px;
+    border-radius: 10px
+}
+
+.page-header{
+    text-align:center
+}
+
+.page-header{
+    margin: 0 auto
+}
+
+/* my colors */
+.my-blue {
+    background-color: #44B3C2;
+    color: #F2EDD8;
+}
+
+.my-yellow {
+    background-color: #F1A94E;
+    color: #F2EDD8;}
+
+.my-orange {
+    background-color: #E45641
+}
+
+.my-brown {
+    background-color: #5D4C46
+}
+
+.my-grey {
+    background-color: #7B8D8E
+}
+
+.my-white {
+    background-color: #F2EDD8
+}
+
