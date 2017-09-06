@@ -6,12 +6,15 @@
     <title>Welcome to Cheng-Chia's page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYdONm75TopTqr6LN0dW4fnPJ9m1UfBtg"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
     <!--    <script> alert("Hi, welcome to my page")</script>-->
 </head>
 
@@ -19,40 +22,53 @@
     <!-- Navbar -->
     <nav class="navbar navbar-default" data-spy="affix" data-offset-top="197">
         <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-header"> <a class="navbar-brand" id="karie">Cheng-Chia (Karie) Huang</a> </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#research">RESEARCH</a></li>
-                <li><a href="#small-project">SMALL PROGECTS</a></li>
-                <li><a href="#maps">MAPS</a></li>
+                <li><a href="#about_details">ABOUT</a></li>
+                <li><a href="#small-project">GIS PROJECTS</a></li>
+                <li><a href="#maps">WEB MAPS</a></li>
+                <li><a href="#location">LOCATION</a></li>
+                <li> <a href="huang_cv_basics_v3.pdf" target="_blank">CV</a></li>
             </ul>
         </div>
     </nav>
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center main_page">
-        <h2 class="margin">Welcome to Cheng-Chia Huang's Page</h2> <img src="https://lh4.googleusercontent.com/-jGNTt2xKmYA/V4W-tmgpPhI/AAAAAAAAALE/gl7Udcy-A00daCFJ0_rEij0ZY0OC2b5jwCL0B/w993-h995-no/FullSizeRender.jpg class=" class="img-thumbnail" alt="Cinque Terre" width="380" height="390"> </div>
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 " id="about">
-        <h2 class="margin text-center" id="profile-caption">About Me</h2>
-        <div class="profile">
-            <p>
-                <h4>My name is Cheng-Chia Huang. I am a graduate student in San Diego State University, having five-year geography teaching experience. My current works focus on human dynamics and analysis of geographic information in social media. </h4> </p>
-            <p>
-                <h4> I have got my first Master degree in National Taiwan University, specializng in cultural geography and geography education. Now, I am persuing my second Master degree in GIScience. My research interests are GIS, analysis of big geo-data, image classification, and topic classification. </h4> </p>
-            <!--    my education background-->
-            <ol id="education-background">
-                <li><b><h3>Education</h3></b></li>
-                <ul>
+    <!-- Intro Container -->
+    <div class="container-fluid bg-1 main_page">
+        <div class="row" id="about">
+            <div class="container">
+                <div class="row vertical-align" style="margin-top: 5%">
+                    <!--                    <div class="col-md-12">-->
+                    <br>
+                    <div class="col-md-6"> <img style="vertical-align:middle" src="./img/My_photo.JPG" class="img-circle img-rounded closed-left" alt="Cinque Terre" width="380" height="390"> </div>
+                    <div class="col-md-6 closed-right">
+                        <p class="text-left">
+                           
+                            <h4 style="line-height: 150%">My name is Cheng-Chia Huang. I am a graduate research assistant in Department of Geography at San Diego State University. In the past few years, I was working on multiple projects as a GIS analyst and programmer. </h4></p>
+                        <p>
+                            <h4 style="line-height: 150%; margin-top:7%">My current works focus on human dynamics and analysis of geographic information in social media. My expertise lies in GIS, analysis of big geo-social media, integrating spatial analysis with data mining and machine learning algorithms, and geography education. </h4></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Container -->
+    <div class="container-fluid bg-2" id="about_details" >
+        <h2 class="margin text-center section-caption">About Me</h2>
+        <div class="row closed">
+            <div class="col-lg-4 col-sm-6">
+                <h3 class="card-title text-center">Education</h3>
+                <ul style="line-height: 230%">
                     <p>
                         <li>M.S. (9/2015-- )</li>
                         <ul>
                             <li><a class="school" href="https://geography.sdsu.edu/" target="_blank">Department of Geography, San Diego State University</a></li>
-                            <li>GIScience, social media </ul>
+                            <li>GIScience / Social media </ul>
                     </p>
                     <p>
                         <li>M.S. (9/2008-- 6/2011)</li>
                         <ul>
                             <li><a class="school" href="http://www.geog.ntu.edu.tw/en/" target="_blank">Department of Geography, National Taiwan University</a></li>
-                            <li>cultral geography, textual analysis </ul>
+                            <li>Cultral geography / Textual analysis </ul>
                     </p>
                     <p>
                         <li>B.S. (9/2003-- 6/2007)</li>
@@ -64,76 +80,103 @@
                         </ul>
                     </p>
                 </ul>
-                <li> <b> <h3>Reserch Interests </h3></b> </li>
-                <ul>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <h3 class="card-title text-center">Expertise</h3>
+                <ul style="line-height: 300%; font-size:120%">
                     <li>GIS</li>
+                    <li>Mapping</li>
                     <li>Analysis of big geo-data</li>
+                    <li>Text mining</li>
                     <li>Geography education</li>
                 </ul>
-                <li> <b><h3>Work Experiences </h3></b> </li>
-                <ul>
-                    <li> Student Teacher in Taipei Long-Men Junior High School (2007-2008) </li>
-                    <li> Geography Teacher in Touqian Junior High School (2008-2009)</li>
-                    <li>Teaching Assistant and Research Assistant in Department of Geography at National Taiwan University (2009-2010)</li>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <h3 class="card-title text-center">Work Experiences </h3>
+                <ul style="line-height: 230%">
+                    <li>Resesrch Assistant in Department of Geography at San Diego State University (2015-present)</li>
                     <li>Geography Teacher in Yuli and Hsin Sheng Junior High School (2011-2014)</li>
-                    <li>Resesrch Assistant in Department of Geography at San Diego State University (2015-recent)</li>
+                    <li>Teaching Assistant and Research Assistant in Department of Geography at National Taiwan University (2009-2010)</li>
+                    <li> Geography Teacher in Touqian Junior High School (2008-2009)</li>
+                    <li> Student Teacher in Taipei Long-Men Junior High School (2007-2008) </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Projects Container (Grid) -->
+    <div class="container-fluid bg-4" id="small-project">
+        <h2 class="margin  text-center" id=project-caption>GIS Projects</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>
+                    <h3 class="text-center"><a href="sentiment.html" target="_blank" class="project">GIS & Health</a></h3></p>
+                <p class="text-padding"> This project aims at developing a dashboard which is able to monitor the mental health of residents with sentiment analysis.
+                    <br> This project won the Most Thorough Design and Development Award at 2017 San Diego Big Data Hackathon.</p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <h3 class="text-center"><a href="http://mappingideas.sdsu.edu/big-group2016/group4/index.html" target="_blank"  class="project">GIS & Gentrification (1)</a></h3></p>
+                <p class="text-padding"> This project takes advantage of Graphlab Create and NLTK, a python library, to group the Instagram posts in Salt Lake County by the text similarity.
+                    <br> This project tries to test if gentrifying areas have similar Instagram posts</p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <h3 class="text-center"><a href="image%20classification.html" target="_blank" class="project">GIS & Gentrification (2)</a></h3> </p>
+                <p class="text-padding">This project takes advantage Tensor Flow, a machine learning python library, to classify the Instagram photos in the core area of Sugar House,SLC.</p>
+            </div>
+            <div class="col-sm-3">
+                <p>
+                    <h3 class="text-center"><a href="sql.html" target="_blank" class="project">GIS & Gentrification (3)</a></h3> </p>
+                <p class="text-padding">This project develops a tool written in PostgreSQL and Python. This tool is able to generate the gentrification typologies based on different existing methods and visualize them as maps. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Maps Container (Grid) -->
+    <div class="container-fluid bg-5 text-center main_page" id="maps">
+        <h2 class="margin map-caption" id="webmap">Web Maps</h2>
+        <h4 style="color:#F2EDD8; letter-spacing: 4px; margin-top:-3%">(Click the maps for more details)</h4>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
-        </div>
-    </div>
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center" id="research">
-        <h2 class="margin" id="research-caption">Research</h2>
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <p>
-                    <h3><a href=# class="topic">Topic 1: Gentrification</a></h3></p>
-                <p class=research-content> This research is about how we can take advantage of data mining technique to detect gentrifying areas with Instagram data...</p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active"> <a href= "map_price.html" target="_blank" ><img src="img/price.JPG" alt="House Price"></a>
+                    <a href= "map_price.html" target="_blank" ><h3>The Spatial Patterns of House Price in SLC</h3> </a></div>
+                <div class="item"> <a href= "auto.html" target="_blank" > <img src="img/auto.JPG" alt="Auto-Correlation"></a>
+                    <a href= "auto.html" target="_blank" ><h3>Spatial Auto-correlation of House Price in SLC</h3></a> </div>
+                <div class="item"> <a href= "night.html" target="_blank" ><img src="img/night.JPG" alt="Night Posts"></a>
+                    <a href= "night.html" target="_blank" ><h3>The Spatial Patterns of Instagram Night Posts in SLC</h3> </a></div>
+                <div class="item"> <a href= "keywords.html" target="_blank" ><img src="img/keywords.JPG" alt="Gentrification Keywords"></a>
+                    <a href= "keywords.html" target="_blank" > <h3>The Spatial Patterns of Instagram Posts with Gentrification Keywords</h3> </a></div>
             </div>
-            <div class="col-sm-6">
-                <p>
-                    <h3><a href=# class="topic">Topic 2: Cross-border imagination</a></h3></p>
-                <p class="research-content">This research explores cross-border imaggination from different genres of Taipei city writing </p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-4 text-center" id="small-project">
-        <h2 class="margin" id=project-caption>Small Projects</h2>
-        <br>
-        <div class="row">
-            <div class="col-sm-3">
-                <p>
-                    <h3><a herf=# class="project">1. Sentiment Analysis</a></h3></p>
-                <p class="text-padding"> This project takes advantage of NLTK and Text-Blob python libraries to analyze Instagram postings in Salt Lake City.</p>
-            </div>
-            <div class="col-sm-3">
-                <p>
-                    <h3><a herf=# class="project">2. Text Clustering </a></h3></p>
-                <p class="text-padding"> This project takes advantage of Graphlab Create, a machine learning python library, to cluster the Instagram posts in Salt Lake County. </p>
-            </div>
-            <div class="col-sm-3">
-                <p>
-                    <h3><a herf=# class="project">3. Image Classification</a></h3> </p>
-                <p class="text-padding">This project takes advantage Tensor Flow, a machine learning python library, to classify the Instagram photos in Sugar House,SLC.</p>
-            </div>
-             <div class="col-sm-3">
-                <p>
-                    <h3><a herf=# class="project">4. SQL Project</a></h3> </p>
-                <p class="text-padding">This project develops a tool which is able to generate gentrification typologies based on different methods. The programing languages used for this project are PostgresSQL and Python. </p>
-            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a>
         </div>
     </div>
     <!--shows my location on googlemap-->
-    <div class="container-fluid bg-5 text-center main_page" id="maps">
-        <h2 class="margin map-caption">Map of My Location</h2>
+    <div class="container-fluid bg-1 text-center main_page" id="location">
+        <h2 class="margin map-caption">My Location</h2>
         <div id="googleMap" style="width:1000px;height:380px; margin:auto"> </div>
     </div>
     <!-- Footer -->
-    <footer class="container-fluid bg-6 text-center">
-        <p>Website Made By Cheng-Chia
-            <br>Email: huangkarie@gmail.com</p>
-    </footer>
+    <div class="container-fluid bg-6 text-center">
+        <div class="row">
+        <a href="mailto:huangkarie@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true" style="font-size: 4em;color:#44B3C2; margin-right:5%"></i>
+        <a href="https://www.linkedin.com/in/cheng-chia-karie-huang-370988139/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 4em; color:#44B3C2; margin-right:5%"></i>
+        <a href="#"><i class="fa fa-home" aria-hidden="true" style="font-size: 4em; color:#44B3C2"></i>
+        </div>
+      
+       
+       
+    </div>
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
     <script>
         // Add smooth scrolling to all links in navbar + footer link 
         $(document).ready(function () {
@@ -174,6 +217,42 @@
             marker.setMap(map);
         }
         google.maps.event.addDomListener(window, 'load', showmap);
+        
+        
+        
+        // ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </script>
 </body>
 

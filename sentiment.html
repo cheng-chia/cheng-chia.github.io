@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>GIS & Health </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        html,
+        body,
+       
+        
+        .navbar-header {
+            font-size: 25;
+            font-family: "Avenir Next W00";
+            color: #7B8D8E
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 13px;
+            letter-spacing: 3px;
+            background-color: #F2EDD8;
+            z-index: 9;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #44B3C2 !important;
+            font-size: 15px;
+        }
+        
+        #act {
+            background-color: #DCD0C0; font-size: 18
+    
+        }
+        .main-container {background-color:#44B3C2; font-size: 16; color:#F2EDD8; padding-bottom:10%}
+        .intro {padding-top: 3%; padding-left: 5%; padding-right: 5%}
+        .embed-container{padding-top:5%; padding-left: 3%; padding-right: 3% }
+    </style>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.3/"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p>Projects</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a id="act" href="#">GIS & Health</a></li>
+                <li ><a  href="http://mappingideas.sdsu.edu/big-group2016/group4/index.html">GIS & Gentrification (1)</a></li>
+                <li><a href="image classification.html">GIS & Gentrification (2)</a></li>
+                <li><a href="sql.html">GIS & Gentrification (3)</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-container">
+    <div class="intro"><p> <br>
+        This product, a dashboard monitoring mental health status in San Diego area, was develped by Cheng-Chia Huang, Joey Lee, and Zhengcong Yin during 2017 San Diego Big Data Hackathon and won <i>the Most Thorough Design and Development Award</i>. This product provides mental health information and analyzes the percentage of positive twites and negative twites in San Diego County.</p>
+    <p>
+        The web map is based on ArcGIS API for JavaScript, and the sentiment analysis is based on Natural Language Toolkit. The data used were retrived from Livewell and Twiter API.
+    </p></div>
+    
+    
+    <div class="embed-container text-center"> <iframe width=80% height=80% src="https://www.youtube.com/embed/2ooQWTQs8Io" frameborder="0" allowfullscreen></iframe></div>
+    <p class="text-center">This vedio was create by Joey Lee.</p>
+    </div> </body>
+

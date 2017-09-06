@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>The Spatial Auto-correlation of House Price </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    <style>
+        html,
+        body,
+        #viewDiv {
+            padding: 0%;
+            margin: 0%;
+            height: 100%;
+            width: 100%;
+            background: #44B3C2;
+        }
+        
+        .navbar-header {
+            font-size: 25;
+            font-family: "Avenir Next W00";
+            color: #7B8D8E
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+            background-color: #F2EDD8;
+            z-index: 9;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #44B3C2 !important;
+            font-size: 25px;
+        }
+        
+        #act {
+            background-color: #DCD0C0; font-size: 20
+        }
+    </style>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p>The Spatial Auto-correlation of House Price (SLC)</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map_auto_13.html">2013</a></li>
+                <li><a href="map_auto_14.html">2014</a></li>
+                <li  class="active"><a id="act" href="#">2015</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+  <div class="embed-container"><iframe width=100% height=100% frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Spatial Auto-correlation of House Value in 2015" src="//hdma.maps.arcgis.com/apps/Embed/index.html?webmap=1e6b904337b84f71976fc08e87908404&amp;extent=-112.0813,40.6891,-111.6817,40.841&amp;home=true&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;legend=true&amp;disable_scroll=true&amp;theme=light"></iframe></div>
+</body>
+
+</html>

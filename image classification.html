@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>GIS & Gentrification(2) </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        html,
+        body,
+       
+        
+        .navbar-header {
+            font-size: 25;
+            font-family: "Avenir Next W00";
+            color: #7B8D8E
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 13px;
+            letter-spacing:3px;
+            background-color: #F2EDD8;
+            z-index: 9;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #44B3C2 !important;
+            font-size: 15px;
+        }
+        
+        #act {
+            background-color: #DCD0C0; font-size: 18
+    
+        }
+        .main-container {background-color:#44B3C2; font-size: 16; color:#F2EDD8; padding-bottom:10%}
+        .intro {padding-top: 3%; padding-left: 5%; padding-right: 5%}
+        .embed-container{padding-top:5%; padding-left: 3%; padding-right: 3% }
+    </style>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.3/"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p>Projects</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sentiment.html">GIS & Health</a></li>
+                <li ><a  href="http://mappingideas.sdsu.edu/big-group2016/group4/index.html">GIS & Gentrification (1)</a></li>
+                <li class="active"><a id="act" href=#>GIS & Gentrification (2)</a></li>
+                <li><a href="sql.html">GIS & Gentrification (3)</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-container">
+    <div class="intro"><p> <br>
+        The purpose of this project is to identify the distinctive ambience of gentrifying areas. The study area for this project is the core area of Sugar House, where is a typical gentrifying areas in Salt Lake City, Utah. The main problem is how we can measure the untouchable feeling -- ambience. This project assumes that the ambience of an area can be detected by the main topics of photos people posted there</p>
+    <p>
+        From 2013 to 2015, there were 45,833 Instagram photos posted in the core area of Sugar House. After collecting these Instagram photos through Instagram API, TensorFlow, an open source software library for machine intelligence, was used for recognizing the large amount of photos. TensorFlow provides Image recognition service which is based on the model--Inception-v3. This model helps us classify photos and returns five possible topics of the photo. This project generates a word cloud based on the most possible topic of every Instagram photo in the core Sugar House area.
+    </p>
+    <p>According to the word cloud, three types of topics are found. The first topic is <b>selfies</b> because sunglass, hair, and wig are obvious on the word cloud. The second topic is <b>outdoor activities</b> because valley and alp are also obvious on the word cloud. The third topic is <b>food and alcohol.</b> </p>
+    </div>
+    
+    
+    <div class="embed-container text-center">  <img src="./img/image_class_2013.jpg" class="img-rounded" alt="Cinque Terre" width=70% height=85%>
+    </div> </body>
