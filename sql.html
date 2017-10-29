@@ -51,6 +51,11 @@
             padding-right: 5%
         }
         
+       
+        p a {color:#F2EDD8; text-decoration: underline}
+        a p {color:#F2EDD8;}
+        
+        
         .embed-container {
             padding-top: 5%;
             padding-left: 3%;
@@ -194,35 +199,53 @@
     </nav>
     <div class="main-container">
         <div class="intro">
-            <p>
-                <br> This project creates a tool written in PostgreSQL and Python, which is able to replicate gentrification typologies based on five exiting census-based gentrification typology strategies.</p>
-            <p> The five census-based gentrification typology strategies used in this project are (1) Bostic and Martin's method, (2) Freeman's method, (3) Ding et al.'s method, (4) Mckinnish et al.'s method, and (5) Voorhees Center's method. The maps below are the visualized results in Salt Lake City, UT. </p>
+            <br> <b>Background</b>
+            <P>Gentrification, a term which was coined by Ruth Glass (1964), originally refers to an urban process that involves property price increase and replacement of working-class residents by the incoming middle classes. Although discussing consequences of gentrification often lead to controversial debates, analyzing gentrification dynamics can support decisions for local residents, communities, and governments. Today, researchers utilize various quantitative and qualitative methodologies to measure the gentrification dynamics. Due to the data accessibility, census-based gentrification typology is the commonest way they use.  </P>
+            
+            <br> <b>Project Objective </b>
+            <p> There are at least 5 census-based gentrification typology methods including <a href="typology_methods.pdf" target="_blank"> (1) Bostic and Martin’s method, (2) Freeman’s method, (3) Ding, Hwang, and Divringi’s method, (4) McKinnish et al.’s method, and (5) the method developed by Voorhees Center.</a>
+                
+                Since these methods identify gentrifying areas based on different variables and criteria, it is difficult for other researchers, governments or local residents to generate the gentrification typology of their neighborhoods. Therefore, this project developed tools which are able to replicate 5 different census-based gentrification typologies using PostgreSQL database, Post GIS, and Python. Additionally, the tools were applied to Salt Lake City, UT (the areas with the population density below 5th percentile were exclude), and the results were visualized as maps using ArcGIS. The maps below are the results. </p>
+                
+    
+            
         </div>
         <div class="row">
             <div class="col-sm-6 topic">
-                <p class=" text-center">Bostic and Martin's method</p> <img src="/img/bostic%20method.jpg" class="img-thumbnail" alt="Cinque Terre" width=100% height=100%>
+                <a href="/img/bostic_2.jpg" target="_blank"><p class=" text-center ">Bostic and Martin's method</p> <img src="/img/bostic_2.jpg" class="img-thumbnail" alt="Bostic and Martin " width=100% height=100%></a>
     
                 </div>
             <div class="col-sm-6 topic">
-                <p class=" text-center">Freeman's method</p> <img src="/img/freeman.jpg" class="img-thumbnail" alt="Cinque Terre" width=100% height=100%>
+                <a href="/img/freeman_2.jpg" target="_blank"><p class=" text-center ">Freeman's method</p> <img src="/img/freeman_2.jpg" class="img-thumbnail" alt="Freeman" width=100% height=100%></a>
 
                  <!-- The Modal -->
                 </div>
         </div>
              
         <div class="row">
+            <div class="col-sm-6 topic ">
+                <a href="/img/ding_2.jpg" target="_blank"><p class=" text-center ">Ding et al's method</p> <img   src="/img/ding_2.jpg" class="img-thumbnail" alt="Ding, Hwang, and Divringi" width=100% height=100%></a></div>
             <div class="col-sm-6 topic">
-                <p class=" text-center">Ding et al's method</p> <img   src="/img/ding.jpg" class="img-thumbnail" alt="Cinque Terre" width=100% height=100%></div>
-            <div class="col-sm-6 topic">
-                <p class=" text-center">Mckinnish et al's method</p> <img src="/img/mckinnish.jpg" class="img-thumbnail" alt="Cinque Terre" width=100% height=100%></div>
+                <a href="/img/mckinnish_2.jpg" target="_blank"><p class=" text-center ">Mckinnish et al's method</p> <img src="/img/mckinnish_2.jpg" class="img-thumbnail" alt="McKinnish et al. " width=100% height=100%></a></div>
         </div>
         <div class="row">
             <div class="col-sm-6 topic">
-                <p class=" text-center">Voorhee Center's method</p> <img src="/img/voorhees%20method.jpg" class="img-thumbnail" alt="Cinque Terre" width=100% height=100%></div>
+                <a href="/img/voorhees%20method_2.jpg" target="_blank"><p class=" text-center ">Voorhee Center's method</p> <img src="/img/voorhees%20method_2.jpg" class="img-thumbnail" alt="Voorhees Center " width=100% height=100%></a></div>
         </div>
-         
+        
+        <div class="row">
+             <div class="ref"> <br> <br>
+        <p> <b>Reference</b></p>
+                 <p>Ding, L., Hwang, J., & Divringi, E. E. (2015). Gentrification and residential mobility in Philadelphia.</p>
+<p>Freeman, L. (2005). Displacement or succession? Residential mobility in gentrifying neighborhoods. Urban Affairs Review, 40(4), 463-491. </p>
+<p>Bostic, R. W., & Martin, R. W. (2003). Black home-owners as a gentrifying force? Neighbourhood dynamics in the context of minority home-ownership. Urban Studies, 40(12), 2427-2449.</p>
+<p>McKinnish, T., Walsh, R., & White, T. K. (2010). Who gentrifies low-income neighborhoods?. Journal of urban economics, 67(2), 180-193.</p>
+<p>Nathalie P. Voorhees Center (2014) The Socioeconomic Change of Chicago’s Community Areas (1970-2010) </p>
+
+        </div>
+        </div>
     </div>
-    
+   
     
 
 </body>
